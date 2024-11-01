@@ -1,0 +1,25 @@
+{
+  "license": "ISC",
+  "version": "1.0.0",
+  "author": "mdos-san",
+  "name": "@mds-coding/database-mongo",
+  "description": "DatabaseMongo class",
+  "type": "module",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "@mds-coding/database-entity": "^1.0.0",
+    "mongodb": "^6.10.0"
+  },
+  "devDependencies": {
+    "@testcontainers/mongodb": "^10.13.2",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
