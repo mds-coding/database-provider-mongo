@@ -1,6 +1,6 @@
 {
   "license": "ISC",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "mdos-san",
   "name": "@mds-coding/database-provider-mongo",
   "description": "`DatabaseProviderMongo` class",
@@ -13,10 +13,10 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
-    "@mds-coding/database-criteria": "^2.0.0",
-    "@mds-coding/database-entity": "^2.0.0",
-    "@mds-coding/database-provider-abstract": "^2.0.0",
-    "@mds-coding/database-query": "^2.0.0",
+    "@mds-coding/database-criteria": "^3.0.0",
+    "@mds-coding/database-entity": "^3.0.0",
+    "@mds-coding/database-provider-abstract": "^3.0.0",
+    "@mds-coding/database-query": "^3.0.0",
     "mongodb": "^6.10.0"
   },
   "devDependencies": {
